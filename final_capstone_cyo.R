@@ -5,32 +5,32 @@
 
 ################################################################################
 # Download required packages ----
-if(!require("pacman")){install.packages("pacman")}
-if(!require("tidyverse")){install.packages("tidyverse")}
-if(!require("plyr")){install.packages("plyr")}
-if(!require("readxl")){install.packages("readxl")}
-if(!require("data.table")){install.packages("data.table")}
-if(!require("RCurl")){install.packages("RCurl")}
-if(!require("janitor")){install.packages("janitor")}
-if(!require("Amelia")){install.packages("Amelia")}
-if(!require("GGally")){install.packages("GGally")}
-if(!require("ggthemes")){install.packages("ggthemes")}
-if(!require("caret")){install.packages("caret")}
-if(!require("corrplot")){install.packages("corrplot")}
-if(!require("psych")){install.packages("psych")}
-if(!require("gghalves")){install.packages("gghalves")}
-if(!require("mlogit")){install.packages("mlogit")}
-if(!require("rpart")){install.packages("rpart")}
-if(!require("rpart.plot")){install.packages("rpart.plot")}
-if(!require("e1071")){install.packages("e1071")}
-if(!require("modeest")){install.packages("modeest")}
-if(!require("skimr")){install.packages("skimr")}
-if(!require("tidymodels")){install.packages("tidymodels")}
-if(!require("gmnl")){install.packages("gmnl")}
-if(!require("nnet")){install.packages("nnet")}
-if(!require("stargazer")){install.packages("stargazer")}
-if(!require("themis")){install.packages("themis")}
-if(!require("tibble")){install.packages("tibble")}
+if(!require("pacman")){install.packages("pacman", repos = "http://cran.us.r-project.org")}
+if(!require("tidyverse")){install.packages("tidyverse", repos = "http://cran.us.r-project.org")}
+if(!require("plyr")){install.packages("plyr", repos = "http://cran.us.r-project.org")}
+if(!require("readxl")){install.packages("readxl", repos = "http://cran.us.r-project.org")}
+if(!require("data.table")){install.packages("data.table", repos = "http://cran.us.r-project.org")}
+if(!require("RCurl")){install.packages("RCurl", repos = "http://cran.us.r-project.org")}
+if(!require("janitor")){install.packages("janitor", repos = "http://cran.us.r-project.org")}
+if(!require("Amelia")){install.packages("Amelia", repos = "http://cran.us.r-project.org")}
+if(!require("GGally")){install.packages("GGally", repos = "http://cran.us.r-project.org")}
+if(!require("ggthemes")){install.packages("ggthemes", repos = "http://cran.us.r-project.org")}
+if(!require("caret")){install.packages("caret", repos = "http://cran.us.r-project.org")}
+if(!require("corrplot")){install.packages("corrplot", repos = "http://cran.us.r-project.org")}
+if(!require("psych")){install.packages("psych", repos = "http://cran.us.r-project.org")}
+if(!require("gghalves")){install.packages("gghalves", repos = "http://cran.us.r-project.org")}
+if(!require("mlogit")){install.packages("mlogit", repos = "http://cran.us.r-project.org")}
+if(!require("rpart")){install.packages("rpart", repos = "http://cran.us.r-project.org")}
+if(!require("rpart.plot")){install.packages("rpart.plot", repos = "http://cran.us.r-project.org")}
+if(!require("e1071")){install.packages("e1071", repos = "http://cran.us.r-project.org")}
+if(!require("modeest")){install.packages("modeest", repos = "http://cran.us.r-project.org")}
+if(!require("skimr")){install.packages("skimr", repos = "http://cran.us.r-project.org")}
+if(!require("tidymodels")){install.packages("tidymodels", repos = "http://cran.us.r-project.org")}
+if(!require("gmnl")){install.packages("gmnl", repos = "http://cran.us.r-project.org")}
+if(!require("nnet")){install.packages("nnet", repos = "http://cran.us.r-project.org")}
+if(!require("stargazer")){install.packages("stargazer", repos = "http://cran.us.r-project.org")}
+if(!require("themis")){install.packages("themis", repos = "http://cran.us.r-project.org")}
+if(!require("tibble")){install.packages("tibble", repos = "http://cran.us.r-project.org")}
 
 ##############################################################
 # SECTION 2
