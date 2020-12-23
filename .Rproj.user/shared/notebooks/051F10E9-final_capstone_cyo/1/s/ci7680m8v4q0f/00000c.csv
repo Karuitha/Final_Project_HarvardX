@@ -1,0 +1,2 @@
+"0","## Summary statistics for the dependent variables"
+"0","summary(fall_train$activity) %>% knitr::kable(caption = ""Summary of Dependent Variable"")"

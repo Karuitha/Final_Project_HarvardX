@@ -1,0 +1,5 @@
+"0","## Transform the testing data similar to the training data"
+"0","fall_test <- pca_trans %>% "
+"0","  "
+"0","  ## Use of bake function to generate testing test transformed exactly like the training set"
+"0","  bake(fall_test)"

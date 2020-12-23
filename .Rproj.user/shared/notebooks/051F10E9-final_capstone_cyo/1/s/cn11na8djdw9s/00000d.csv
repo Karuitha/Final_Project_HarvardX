@@ -1,0 +1,6 @@
+"0","## Visualize the correlation "
+"0","## Run correlation on independent variables and call the corrplot"
+"0","cor(fall_train[,-1]) %>% corrplot::corrplot(method = ""color"", "
+"0","                                            "
+"0","            ## Specify the corrplot type and add title"
+"0","            type = ""lower"", title = ""Figure 3: A Visual of the Correlation Matrix - Training Set"")"

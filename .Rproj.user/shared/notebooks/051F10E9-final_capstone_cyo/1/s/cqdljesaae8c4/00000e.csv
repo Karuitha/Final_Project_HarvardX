@@ -1,0 +1,2 @@
+"0","## Visualizing missingness of data "
+"0","Amelia::missmap(fall_train, main = ""Figure 1: Missingness Map- Training Set"") "

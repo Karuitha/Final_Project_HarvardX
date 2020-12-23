@@ -1,0 +1,8 @@
+"0","library(tibble)"
+"0","tribble("
+"0","  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Thesis,"
+"0","  ""PhD in Financial Economics"", ""2017-2020"", ""University of the Witwatersrand"", ""Johannesburg, South Africa"", ""Transformation of Microfinance Institutions in Africa"","
+"0","  ""Master of Business Administration"", ""2004-2006"", ""Egerton University"", ""Egerton, Kenya"", """","
+"0","  ""Bachelor of Education, Arts"", ""1997-2001"", ""Egerton University"", ""Egerton, Kenya"", """""
+"0",") %>% "
+"0","  detailed_entries(Degree, Year, Institution, Where, Thesis)"

@@ -1,0 +1,16 @@
+"0","knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)"
+"0","library(vitae)"
+"2","
+Attaching package: ‘vitae’
+
+"
+"2","The following objects are masked from ‘package:plyr’:
+
+    arrange, mutate, rename, summarise
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
